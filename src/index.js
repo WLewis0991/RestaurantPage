@@ -1,6 +1,6 @@
 // src/index.js
 import "./styles.css";
-import { greeting } from "./home.js"
+import { greeting } from "./pages/home.js"
 
 const homeButton = document.querySelector(".home");
 const menuButton = document.querySelector(".menu");
