@@ -2,11 +2,13 @@
 import "./styles.css";
 import loadHome from "./pages/home.js"
 
-const homeButton = document.querySelector(".home");
-const menuButton = document.querySelector(".menu");
-const aboutButton = document.querySelector(".about")
-const contactButton = document.querySelector(".contact")
-const content = document.querySelector(".content");
+const homeButton = document.getElementById("home");
+const menuButton = document.getElementById("menu");
+const aboutButton = document.getElementById("about")
+const contactButton = document.getElementById("contact")
+const content = document.getElementById("content");
+
+loadHome();
 
 homeButton.addEventListener("click",() =>{
     clearContent();
@@ -29,5 +31,4 @@ function clearContent () {
     content.textContent="";
 }
 
-loadHome();
 console.log(greeting);
