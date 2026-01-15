@@ -79,3 +79,15 @@ header {
   padding-left: 30%;
   padding-right: 30%;
 }
+
+.contactPage{
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.67);
+  width: 100%;
+  font-size: 1.5em;
+
+}

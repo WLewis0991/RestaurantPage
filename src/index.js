@@ -3,6 +3,7 @@ import "./styles.css";
 import loadHome from "./pages/home.js";
 import {loadMenu} from "./pages/menu.js";
 import { loadAbout } from "./pages/about.js"; 
+import { loadContact } from "./pages/contact.js";
 
 
 const homeButton = document.getElementById("home");
@@ -30,6 +31,7 @@ aboutButton.addEventListener("click", () =>{
 
 contactButton.addEventListener("click", () =>{
     clearContent();
+    loadContact();
 })
 
 
@@ -37,5 +39,5 @@ function clearContent() {
     content.textContent="";
 }
 
-
+loadHome();
 console.log(greeting);
