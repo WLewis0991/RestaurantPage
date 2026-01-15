@@ -8,10 +8,26 @@ const aboutButton = document.querySelector(".about")
 const contactButton = document.querySelector(".contact")
 const content = document.querySelector(".content");
 
-homeButton.addEventListener("click" , () => {
-    content.textContent="";
+homeButton.addEventListener("click",() =>{
+    clearContent();
     loadHome();
 });
+
+menuButton.addEventListener("click", () =>{
+    clearContent();
+})
+
+aboutButton.addEventListener("click", () =>{
+    clearContent();
+})
+
+contactButton.addEventListener("click", () =>{
+    clearContent();
+})
+
+function clearContent () {
+    content.textContent="";
+}
 
 loadHome();
 console.log(greeting);
