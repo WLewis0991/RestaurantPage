@@ -66,3 +66,16 @@ header {
   margin: 0;
   text-decoration: underline;
 }
+
+.about {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.67);
+  display: block;
+  width: 100%;
+}
+
+.aboutSection{
+  padding: 30px;
+  padding-left: 30%;
+  padding-right: 30%;
+}

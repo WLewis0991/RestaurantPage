@@ -2,7 +2,7 @@
 import "./styles.css";
 import loadHome from "./pages/home.js";
 import {loadMenu} from "./pages/menu.js";
-
+import { loadAbout } from "./pages/about.js"; 
 
 
 const homeButton = document.getElementById("home");
@@ -25,6 +25,7 @@ menuButton.addEventListener("click", () =>{
 
 aboutButton.addEventListener("click", () =>{
     clearContent();
+    loadAbout();
 })
 
 contactButton.addEventListener("click", () =>{
