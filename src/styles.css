@@ -7,13 +7,44 @@
 body {
   background-color: black;
   display: flex;
-  flex-direction: column;
-
+  flex-direction: column; 
+  background-image: url(./imgs/RestaurantBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto 100%;
 }
 
-header {
+header {  
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1em;
+  width: 100%;
+  background-color: transparent;
+}
+
+.head{
+  border: transparent;
+  background-color: transparent;
+  color: antiquewhite;
+  font-size: 2em;
+  padding: 0 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.content{
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.67);
+  width: 100%;
+  padding: 2em;
+  font-size: 4em;
 }
