@@ -5,6 +5,7 @@
 }
 
 body {
+  height: 98vh;
   background-color: black;
   display: flex;
   flex-direction: column; 
@@ -33,7 +34,7 @@ header {
 }
 
 .content{
-  height: 92vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
